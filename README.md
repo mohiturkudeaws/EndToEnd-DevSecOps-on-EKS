@@ -81,6 +81,19 @@ ArgoCD continuously monitors GitHub repo and syncs the application with EKS clus
 ## 🌐 Application Output
 Application successfully deployed on AWS EKS.
 
-![Application-output](Images/application-output.png)
+![Application-Output](Images/application-output.png)
+
+## 📊 Monitoring Setup
+Prometheus & Grafana installed using Helm charts for:
+
+- Cluster health
+
+- Application performance
+
+- Resource usage
+  
+![Grafana Dashboard](Images/grafana-dashboard.png)
+
+
 
 
