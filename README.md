@@ -17,3 +17,4 @@ I built this project to understand how real-world DevOps works using:
 Everything is automated from code push → build → scan → deploy → monitor.
 
 🧭 Project Architecture
+!
