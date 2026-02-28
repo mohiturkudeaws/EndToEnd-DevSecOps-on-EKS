@@ -18,3 +18,27 @@ Everything is automated from code push → build → scan → deploy → monitor
 
 ## 🧭 Project Architecture
 ![Project-Architecture](Images/project-architecture.gif)
+## ⚙️ Tools & Technologies Used
+- GitHub – Source Code
+
+- Terraform – Infrastructure creation
+
+- Jenkins – CI/CD automation
+
+- Docker – Containerization
+
+- AWS EKS – Kubernetes cluster
+
+- ArgoCD – GitOps deployment
+
+- SonarQube – Code quality
+
+- OWASP – Dependency check
+
+- Trivy – Image security scan
+
+- Helm – Monitoring setup
+
+- Prometheus – Metrics
+
+- Grafana – Dashboard
