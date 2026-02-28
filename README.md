@@ -75,4 +75,7 @@ When code is pushed to GitHub:
 
 ArgoCD continuously monitors GitHub repo and syncs the application with EKS cluster.
 
+![ArgoCD status](Images/traveltales-argocd-sync-status.png)
+
+
 
