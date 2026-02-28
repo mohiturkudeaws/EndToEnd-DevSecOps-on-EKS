@@ -1,4 +1,4 @@
-🚀 End-To-End DevSecOps Implementation on AWS EKS
+#🚀 End-To-End DevSecOps Implementation on AWS EKS
 
 This project shows how I implemented a complete DevSecOps pipeline for a 3-tier MERN application and deployed it on AWS EKS.
 
