@@ -69,6 +69,6 @@ When code is pushed to GitHub:
 
 - ArgoCD deploys the application to EKS automatically
 
-
+![CD-Pipeline](Images/traveltales-cd-pipeline.png)
 
 
