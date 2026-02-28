@@ -59,3 +59,4 @@ When code is pushed to GitHub:
 
 - Pushes image to DockerHub
 
+![CI-Pipeline](Images/ci-pipeline.jpg)
