@@ -59,4 +59,16 @@ When code is pushed to GitHub:
 
 - Pushes image to DockerHub
 
-![CI-Pipeline](Images/ci-pipeline.jpg)
+![CI-Pipeline](Images/traveltales-ci-pipeline.png)
+
+## 🚀 CD Pipeline
+
+- Jenkins updates the new image version
+
+- GitOps flow is triggered
+
+- ArgoCD deploys the application to EKS automatically
+
+
+
+
