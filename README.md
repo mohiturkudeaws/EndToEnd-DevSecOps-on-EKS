@@ -93,7 +93,7 @@ Prometheus & Grafana installed using Helm charts for:
 - Resource usage
   
 ![Grafana Dashboard](Images/grafana-dashboard.png)
-
+![Prometheus Target Health](Images/prometheus-target-health-screenshot.png)
 
 
 
