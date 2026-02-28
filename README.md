@@ -18,6 +18,8 @@ Everything is automated from code push → build → scan → deploy → monitor
 
 ## 🧭 Project Architecture
 ![Project-Architecture](Images/project-architecture.gif)
+
+
 ## ⚙️ Tools & Technologies Used
 - GitHub – Source Code
 
@@ -42,3 +44,18 @@ Everything is automated from code push → build → scan → deploy → monitor
 - Prometheus – Metrics
 
 - Grafana – Dashboard
+
+## 🔁 CI Pipeline
+
+When code is pushed to GitHub:
+
+- Jenkins pipeline starts automatically
+
+- Runs security checks (OWASP, SonarQube)
+
+- Builds Docker image
+
+- Scans image using Trivy
+
+- Pushes image to DockerHub
+
