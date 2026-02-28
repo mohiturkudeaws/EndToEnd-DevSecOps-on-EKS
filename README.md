@@ -97,7 +97,8 @@ Prometheus & Grafana installed using Helm charts for:
 
 ## 🛠 Infrastructure Setup using Terraform
 Terraform was used to create EC2 infrastructure.
+```
 terraform init
 terraform plan
 terraform apply
-
+```
