@@ -102,3 +102,66 @@ terraform init
 terraform plan
 terraform apply
 ```
+## ☸️ Create EKS Cluster
+```
+eksctl create cluster --name traveltales-cluster --region ap-south-1
+```
+## 🐳 Docker Commands
+Build image:
+```
+docker build -t app-image .
+```
+Push to DockerHub:
+```
+docker push username/app-image
+```
+## 🔍 Security Scanning
+Run Trivy scan:
+```
+trivy image username/app-image
+```
+## 🔄 ArgoCD Setup
+Create namespace:
+```
+kubectl create namespace argocd
+```
+Install ArgoCD:
+```
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
+Check pods:
+```
+kubectl get pods -n argocd
+```
+## 📈 Monitoring using Helm
+Install Helm:
+```
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+```
+Add repo:
+```
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+```
+Install Prometheus & Grafana:
+```
+kubectl create namespace monitoring
+helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
+```
+## 🧹 Clean Up
+Delete cluster:
+eksctl delete cluster --name traveltales --region ap-south-1
+
+## 📌 Conclusion
+
+This project helped me understand real-world DevSecOps workflow including:
+
+- Infrastructure automation
+
+- CI/CD pipelines
+
+- Security integration
+
+- GitOps deployment
+
+- Kubernetes monitoring
+
