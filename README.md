@@ -71,4 +71,8 @@ When code is pushed to GitHub:
 
 ![CD-Pipeline](Images/traveltales-cd-pipeline.png)
 
+## 🔄 ArgoCD Deployment
+
+ArgoCD continuously monitors GitHub repo and syncs the application with EKS cluster.
+
 
