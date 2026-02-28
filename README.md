@@ -77,8 +77,10 @@ ArgoCD continuously monitors GitHub repo and syncs the application with EKS clus
 
 ![ArgoCD status](Images/traveltales-argocd-sync-status.png)
 
+
 ## 🌐 Application Output
 Application successfully deployed on AWS EKS.
+
 ![Application-output](Images/application-output.png)
 
 
