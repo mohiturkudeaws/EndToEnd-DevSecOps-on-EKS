@@ -95,5 +95,9 @@ Prometheus & Grafana installed using Helm charts for:
 ![Grafana Dashboard](Images/grafana-dashboard.png)
 ![Prometheus Target Health](Images/prometheus-target-health-screenshot.png)
 
-
+## 🛠 Infrastructure Setup using Terraform
+Terraform was used to create EC2 infrastructure.
+terraform init
+terraform plan
+terraform apply
 
